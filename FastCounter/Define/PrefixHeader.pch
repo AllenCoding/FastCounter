@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  FastCounter
+//
+//  Created by LiuYong on 2018/4/12.
+//  Copyright © 2018年 LiuYong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UtilsHeader.h"
+
+
+#pragma mark ---Categories
+
+#import "UIViewController+Addition.h"
+#import "UIBarButtonItem+Addition.h"
+#import "UIButton+Addition.h"
+#import "UILabel+Addition.h"
+#import "UIView+Frame.h"
+#import "UIView+Layer.h"
+#import "CALayer+Addition.h"
+
+#pragma mark ---ThirdLib
+
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <FMDB.h>
+#import <MJExtension.h>
+#import <MBProgressHUD.h>
+#import <UIImageView+WebCache.h>
+#import <AFNetworking.h>
+#import <YYModel.h>
+#import <AVFoundation/AVFoundation.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import "CountdownLabel.h"
+
+
+/*GamesController*/
+#import "FCCounterViewController.h"//加减大师
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
